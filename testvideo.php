@@ -88,7 +88,7 @@ function getVideoThumbnailByUrl($url)
          * http://img.youtube.com/vi/<insert-youtube-video-id-here>/sddefault.jpg
          * http://img.youtube.com/vi/<insert-youtube-video-id-here>/maxresdefault.jpg
          */
-        return 'http://img.youtube.com/vi/' . $id . '/sddefault.jpg';
+        return 'http://img.youtube.com/vi/' . $id . '/default.jpg';
     }
     return false;
 }
