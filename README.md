@@ -6,7 +6,16 @@ Video ids and thumbnails
 
 The php functions I use to get the video ids and thumbnails from youtube, vimeo and dailymotion.
 
-Simply parse the [testvideo.php]( https://github.com/lingtalfi/video-ids-and-thumbnails/blob/master/testvideo.php ) file, everything is in there.
+
+The functions are in the [function.video.php]( https://github.com/lingtalfi/video-ids-and-thumbnails/blob/master/function.video.php ) file.
+Just copy paste the one you need.
+
+
+
+I also wrote some pre-tests to showcase the functions. 
+Those pre-tests are in the [testvideo.php]( https://github.com/lingtalfi/video-ids-and-thumbnails/blob/master/testvideo.php ) file.
+
+
 
 
 
