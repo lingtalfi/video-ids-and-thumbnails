@@ -41,6 +41,15 @@ function getVimeoId($url)
 function getYoutubeId($url)
 {
     $parts = parse_url($url);
+    if (isset($parts['host'])) {
+        $host = $parts['host'];
+        if (
+            false === strpos($host, 'youtube') &&
+            false === strpos($host, 'youtu.be')
+        ) {
+            return false;
+        }
+    }
     if (isset($parts['query'])) {
         parse_str($parts['query'], $qs);
         if (isset($qs['v'])) {
